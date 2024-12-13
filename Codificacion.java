@@ -1,3 +1,10 @@
+/**
+ * Realiza el diagrama de flujo para recorrer un tablero (8x8) de "Damas", sacando por pantalla si la casilla está ocupada (mostrando la coordenada) y que tipo de ficha es. Además cuenta las fichas de cada jugador sacando por pantalla quien va ganando.
+ * @author: Andrea Mouriño De Sousa
+ * @version:1.0
+ */
+
+
 public class Codificacion {
     public static void main(String[] args) {
             // Representación del tablero:
