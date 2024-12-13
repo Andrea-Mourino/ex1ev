@@ -38,5 +38,18 @@ public class Damas {
             }
         }
 
+        // Mostrar el conteo de fichas
+        System.out.println("\nTotal de fichas blancas: " + contadorBlancas);
+        System.out.println("Total de fichas negras: " + contadorNegras);
 
+        // Determinar quién va ganando
+        if (contadorBlancas > contadorNegras) {
+            System.out.println("\nEl jugador blanco va ganando.");
+        } else if (contadorNegras > contadorBlancas) {
+            System.out.println("\nEl jugador negro va ganando.");
+        } else {
+            System.out.println("\nAmbos jugadores están empatados.");
+        }
+    }
+}
 
